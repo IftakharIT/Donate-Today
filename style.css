@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: tahoma;
+}
+header {
+  background-image: url("./images/donation13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+}
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+header p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+header button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
+.donate1 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(48, 42, 42);
+}
+.donate1 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.donate1 p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 25px;
+  opacity: 8;
+}
+.donate1 ul {
+  display: flex;
+}
+.donate1 ul li {
+  margin: 20px;
+  padding: 30px 20px;
+  cursor: pointer;
+}
+.bestDonate {
+  border: 2px solid red;
+  background-color: rgb(235, 203, 203);
+}
+.donate1 ul li a {
+  color: black;
+  font-weight: bold;
+}
+.donate1 span {
+  text-align: center;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 25px;
+  opacity: 8;
+}
+.donate1 button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
+.donate-plan {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donate-plan h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.donate-plan p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 25px;
+  opacity: 8;
+}
+.plans {
+  display: flex;
+}
+.donate-plan .plans .plantext {
+  width: 200px;
+  margin: 10px 20px;
+  padding: 20px 10px;
+  background-color: rgb(223, 237, 240);
+}
+.plantext h2 {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.plantext p {
+  text-align: left;
+  font-size: 14px;
+}
+.blog {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.blog-text {
+  width: 350px;
+  margin: 20px 30px;
+}
+.blog-img {
+  width: 350px;
+}
+.blog-img img {
+  width: 300px;
+  height: 300px;
+}
+.blog-text h1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.blog-text p {
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.blog-text button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
+.footer-text h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.footer-text p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 219, 219);
+}
+footer input {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgb(216, 212, 212);
+  border-radius: 5px 0px 0px 5px;
+}
+footer button {
+  padding: 10px 15px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
